@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="
+  sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./static/js/sp.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>imPoster</title>
+  <link rel="icon" href="./static/favicon.ico" />
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom fonts for this template -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="./static/css/sp.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:rgb(0,0,0,0.8);">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" id="nav_title" href="#" style="color:#FFA500;"> <img src="./static/favicon.ico"> imPoster</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="nav_home" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav_about" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav_features" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav_timeline" href="#timeline">Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav_team" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://ay2021s2-cs2103t-t12-4.github.io/tp/" target="_blank">Guides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/AY2021S2-CS2103T-T12-4/tp" target="_blank">Github</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead" style="background-image:url('./static/img/imposter_background.gif'); background-size: cover; margin:0;">
+    <div id="hellothere" class="container">
+      <div class="intro-text">
+        <div class="intro-heading text-uppercase">imPoster</div>
+        <div class="subtitle-heading">Kick start your API journey with</div>
+        <div class="subtitle-heading">the simplest testing tool</div>
+        <br/><br/>
+        <button id="main_button" type="button" class="btn btn-primary btn-xl btn-lg text-uppercase" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Predicting">Download</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">About</h2>
+          <h3 class="section-subheading text-muted">"APIs, a menu, but for applications"</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">APIs have become indispensible for developers wishing to communicate with other applications. As a beginner to the field, this can be rather daunting. The question we have:<br/> <b>Is there a simple way to get started?</b>
+          </p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">The objective of this project is to build a simple API tester containing minimal functions for beginners to get started.<br/>This project involves the following:<br/>
+          <b>1. Background Research</b><br/>
+          <b>2. Design Ideation</b><br/>
+          <b>3. Coding the Application</b><br/>
+          </p>
+        </div>
+      </div>
+      <div class="text-center">
+        <a class="btn btn-xl" href="https://github.com/AY2021S2-CS2103T-T12-4/tp" target="_blank">
+          <i class="fab fa-github"></i>
+          Find out more!
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="bg-light" id="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Features</h2>
+          <h3 class="section-subheading text-muted">Our Value Proposition</h3>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4" style="height:405px;">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-puzzle-piece fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Easy</h4>
+          <p class="text-muted">Beginner friendly design, easy to pick up as you dive into the world of APIs!</p>
+        </div>
+        <div class="col-md-4" style="height:405px;">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Simple</h4>
+          <p class="text-muted">Fuss-free user experience, minimalistic yet comprehensive enough for basic usage.</p>
+        </div>
+        <div class="col-md-4" style="height:405px;">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-tachometer-alt fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Fast</h4>
+          <p class="text-muted">Optimised for a quick and efficient solution to your API testing needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section id="timeline">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Timeline</h2>
+          <h3 class="section-subheading text-muted">Our Project Journey</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="./static/img/1.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>1st February 2021</h4>
+                  <h4 class="subheading">Project commences!</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">The imPoster developer team was formed. Research and brainstorming was done to come up with a product.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="./static/img/2.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>8th February 2021</h4>
+                  <h4 class="subheading">User Stories</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">The scope of the project was worked out and user stories were crafted to help set up the project direction.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="./static/img/3.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>15th February 2021</h4>
+                  <h4 class="subheading">Design Ideation</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">The features for the product were discussed and a simple user guide was drafted.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="./static/img/4.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>22nd February 2021</h4>
+                  <h4 class="subheading">Project Setup</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Work for the initial documentation of the project was allocated and the features further discussed.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="./static/img/5.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>1st March 2021</h4>
+                  <h4 class="subheading">v1.1 milestone</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Milestone v1.1 was concluded as we wrapped up initial documentation and the discussion shifted onto the next milestone.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="./static/img/6.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>8th March 2021</h4>
+                  <h4 class="subheading">Production Release!</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Milestone v1.2 was completed with basic functionalities including the sending of GET and POST requests!
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="bg-light" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Project Team</h2>
+          <h3 class="section-subheading text-muted">Contributors</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="https://raw.githubusercontent.com/AY2021S2-CS2103T-T12-4/tp/master/docs/images/julietteoh.png" alt="Juliet Teoh">
+            <h4>Juliet Teoh</h4>
+            <p class="text-muted">Developer</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/juliet-teoh-74b702182/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/julietteoh/" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="https://raw.githubusercontent.com/AY2021S2-CS2103T-T12-4/tp/master/docs/images/tlylt.png" alt="Liu Yongliang">
+            <h4>Liu Yongliang</h4>
+            <p class="text-muted">Developer</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/-yong-/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/tlylt/" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="https://raw.githubusercontent.com/AY2021S2-CS2103T-T12-4/tp/master/docs/images/ong6.png" alt="Ong Jun Xiong">
+            <h4>Ong Jun Xiong</h4>
+            <p class="text-muted">Developer</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/junx6/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/ong6" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="https://raw.githubusercontent.com/AY2021S2-CS2103T-T12-4/tp/master/docs/images/tjtanjin.png" alt="Tan Jin">
+            <h4>Tan Jin</h4>
+            <p class="text-muted">Developer</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/cjtanjin/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/tjtanjin/" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="https://raw.githubusercontent.com/AY2021S2-CS2103T-T12-4/tp/master/docs/images/nightraven49.png" alt="Warren Ng">
+            <h4>Warren Ng</h4>
+            <p class="text-muted">Developer</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/nightraven49/" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted">Have an idea for the project? Reach out to any of us!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light">
+    <div class="container bg-light">
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; imPoster 2021</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://github.com/AY2021S2-CS2103T-T12-4/tp" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
