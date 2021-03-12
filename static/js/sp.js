@@ -10,6 +10,7 @@ $(document).ready(function() {
     }
     a = new Image()
   };
+  
   // Collapse now if page is not at top
   navbarCollapse();
   // Collapse the navbar when page is scrolled
@@ -20,12 +21,6 @@ $(document).ready(function() {
      window.open("https://github.com/AY2021S2-CS2103T-T12-4/tp/releases/download/v1.2/imPoster.jar");
   }); 
 
-  document.addEventListener('keypress', function(event) {
-    if (event.keyCode == 13) {
-      event.preventDefault();
-      document.getElementById("main_button").click();
-    }
-  });
   $('#nav_title').click(function(evt) {
       evt.preventDefault();
     $('html, body').animate({
