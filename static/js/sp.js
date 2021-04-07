@@ -18,7 +18,7 @@ $(document).ready(function() {
 
   // Handle click events
   $("#main_button").click(function(evt) {
-     window.location.href = "https://github.com/AY2021S2-CS2103T-T12-4/tp/releases/download/v1.3.1/imPoster.jar";
+     window.location.href = "https://github.com/AY2021S2-CS2103T-T12-4/tp/releases/download/v1.4/imPoster.jar";
   }); 
 
   $('#nav_title').click(function(evt) {
